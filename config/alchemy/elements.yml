@@ -18,17 +18,8 @@
     default: :article_text
     hint: true
 - name: new
-  hint: true
-  unique: true
   contents:
-  - name: headline
+  - name: kopflinie
     type: EssenceText
-    default: :article_headline
-    hint: true
-  - name: picture
-    type: EssencePicture
-    hint: true
-  - name: text
+  - name: langtext
     type: EssenceRichtext
-    default: :article_text
-    hint: true
