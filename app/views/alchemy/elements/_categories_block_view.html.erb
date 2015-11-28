@@ -1,5 +1,6 @@
 <%- cache(element) do -%>
   <%= element_view_for(element) do |el| -%>
+  <article>
   <h5>
     <%= el.render :categories_headline %>
   </h5>
@@ -8,5 +9,6 @@
       <%= render_essence_view(content) %>
     </p>
     <%- end -%>
+  </article>
   <%- end -%>
 <%- end -%>
