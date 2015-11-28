@@ -4,5 +4,5 @@
 
 - name: index
   unique: true
-  elements: [article, new]
+  elements: [article, new, dreier]
   autogenerate: [article]

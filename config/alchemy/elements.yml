@@ -23,3 +23,13 @@
     type: EssenceText
   - name: langtext
     type: EssenceRichtext
+- name: dreier
+  contents:
+  - name: kopflinie
+    type: EssenceText
+  - name: links
+    type: EssenceRichtext
+  - name: mitte
+    type: EssenceRichtext
+  - name: rechts
+    type: EssenceRichtext

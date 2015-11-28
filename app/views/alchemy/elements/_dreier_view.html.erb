@@ -1,0 +1,16 @@
+<%- cache(element) do -%>
+  <%= element_view_for(element) do |el| -%>
+    <div class="kopflinie">
+      <%= el.render :kopflinie %>
+    </div>
+    <div class="links">
+      <%= el.render :links %>
+    </div>
+    <div class="mitte">
+      <%= el.render :mitte %>
+    </div>
+    <div class="rechts">
+      <%= el.render :rechts %>
+    </div>
+  <%- end -%>
+<%- end -%>
