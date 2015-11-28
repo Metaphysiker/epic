@@ -6,3 +6,6 @@
   unique: true
   elements: [article]
   autogenerate: [article]
+- name: blog
+  elements: [blog_title, blog_post, categories_block, featured]
+  autogenerate: [blog_title]
