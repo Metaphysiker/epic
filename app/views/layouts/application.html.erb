@@ -29,9 +29,16 @@
     </div>
   </div>
 </nav>
+
 <div class="container">
-  <%= yield %>
+  <div class="column-center">
+    <%= yield %>
+  </div>
+  <div class="column-left">Column left</div>
+  <div class="column-right">Column right</div>
 </div>
+
+
   <%= alchemy_preview_mode_code %>
   <%= render "alchemy/menubar" %>
 <footer>
