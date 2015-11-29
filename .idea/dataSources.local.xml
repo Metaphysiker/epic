@@ -3,11 +3,9 @@
   <component name="dataSourceStorageLocal">
     <data-source name="Rails epic: test" uuid="6cd329b0-f347-4eb8-bee9-c678b7e66f49">
       <auth-required>false</auth-required>
-      <first-sync>true</first-sync>
     </data-source>
     <data-source name="Rails epic: development" uuid="aad1c594-2516-4c03-a8e5-6c23d34765b7">
       <auth-required>false</auth-required>
-      <first-sync>true</first-sync>
     </data-source>
   </component>
 </project>

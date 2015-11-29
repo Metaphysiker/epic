@@ -9,3 +9,8 @@
 - name: blog
   elements: [blog_title, blog_post, categories_block, featured]
   autogenerate: [blog_title]
+- name: contact
+  unique: true
+  cache: false
+  elements: [pageheading, heading, contactform]
+  autogenerate: [contactform]

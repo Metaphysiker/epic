@@ -70,3 +70,25 @@
     type: EssenceText
     settings:
       linkable: true
+- name: contactform
+  contents:
+   - name: mail_from
+     type: EssenceText
+     validate:
+     - presence
+     - format
+     validate_format_as: email
+   - name: mail_to
+     type: EssenceText
+     validate:
+     - presence
+     - format
+     validate_format_as: email
+   - name: subject
+     type: EssenceText
+     validate:
+     - presence
+   - name: success_page
+     type: EssenceSelect
+     validate:
+     - presence
