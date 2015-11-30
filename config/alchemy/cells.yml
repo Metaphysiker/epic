@@ -1,2 +1,4 @@
 - name: left_column
   elements: [blog_title]
+- name: logiki
+  elements: [logik]

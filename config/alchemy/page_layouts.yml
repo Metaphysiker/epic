@@ -4,15 +4,15 @@
 
 - name: index
   unique: true
-  cells: left_column
-  elements: [article, image, text]
+  cells: left_column, logiki
+  elements: [article, image, text, logik]
   autogenerate: [article]
 - name: blog
-  cells: [slider]
   elements: [blog_title, blog_post, categories_block, featured]
   autogenerate: [blog_title]
 - name: contact
   unique: true
+  cells: left_column, logiki
   cache: false
-  elements: [pageheading, heading, contactform]
+  elements: [pageheading, heading, contactform, logik, image, text]
   autogenerate: [contactform]

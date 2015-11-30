@@ -92,3 +92,11 @@
      type: EssenceSelect
      validate:
      - presence
+- name: logik
+  contents:
+  - name: kopf
+    type: EssenceText
+  - name: bild
+    type: EssencePicture
+  - name: text
+    type: EssenceRichtext
