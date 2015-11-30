@@ -17,3 +17,9 @@
   cache: false
   elements: [pageheading, heading, contactform, logik, image, text]
   autogenerate: [contactform]
+- name: globalis
+  layoutpage: true
+  cache: false
+  unique: true
+  elements: [article, image, text, logik]
+  autogenerate: [article]
