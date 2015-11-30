@@ -4,9 +4,11 @@
 
 - name: index
   unique: true
-  elements: [article]
+  cells: left_column
+  elements: [article, image, text]
   autogenerate: [article]
 - name: blog
+  cells: [slider]
   elements: [blog_title, blog_post, categories_block, featured]
   autogenerate: [blog_title]
 - name: contact
