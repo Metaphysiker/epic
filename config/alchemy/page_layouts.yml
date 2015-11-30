@@ -8,6 +8,7 @@
   elements: [article, image, text, logik]
   autogenerate: [article]
 - name: blog
+  cells: left_column, logiki
   elements: [blog_title, blog_post, categories_block, featured]
   autogenerate: [blog_title]
 - name: contact

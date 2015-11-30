@@ -35,11 +35,10 @@
     <%= yield %>
   </div>
   <div class="column-left">Hier sollte die Textsuche sein, wie bei blogs.philos</div>
-  <div class="column-right">Hier sind News und kommende Events<br> <%= render_elements :from_cell => 'left_column' %><br><%= render_elements :from_cell => 'logiki' %> </div>
-
+  <div class="column-right">Hier sind News und kommende Events<br>
+    <%= render_elements :from_cell => 'left_column' %><br>
+    <%= render_elements :from_cell => 'logiki' %></div>
 </div>
-
-
   <%= alchemy_preview_mode_code %>
   <%= render "alchemy/menubar" %>
 <footer>
